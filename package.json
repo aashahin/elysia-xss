@@ -1,6 +1,25 @@
 {
   "name": "elysia-xss",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "description": "A plugin for Elysia.js that provides XSS (Cross-Site Scripting) protection by sanitizing request body data.",
+  "author": "Abdelrahman Shaheen",
+  "repository": "https://github.com/aashahin/elysia-xss",
+  "keywords": [
+    "elysia",
+    "xss",
+    "security",
+    "sanitize",
+    "xss-sanitize",
+    "xss-protect",
+    "xss-filter",
+    "xss-protect-elysia",
+    "elysia-xss",
+    "elysia-plugin",
+    "elysia-plugin-xss",
+    "elysia-xss-plugin",
+    "elysia-xss-protect",
+    "bun"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
