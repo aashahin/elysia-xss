@@ -1,0 +1,29 @@
+{
+  "name": "elysia-xss",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "elysia": "^1.1.5",
+    "xss": "^1.0.15"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/bun": "^1.1.6"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}
